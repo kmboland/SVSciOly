@@ -36,13 +36,7 @@ void setup() {
   myMotor2->setSpeed(255);
   myMotor3->setSpeed(255);
   myMotor4->setSpeed(255);
-  
-  
-  // turn on motor
- // myMotor->run(RELEASE);
-  //myMotor2->run(RELEASE);
- // myMotor3->run(RELEASE);
- // myMotor4->run(RELEASE);
+
 }
 
 void loop() {
