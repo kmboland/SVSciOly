@@ -49,6 +49,10 @@ void loop() {
   uint8_t i;
   
   Serial.print("tick");
+  
+//The simplest way to do timing is with a call to delay. The delay time is measured in milliseconds. 
+//For example, to run for 5 seconds:
+//delay(5000);
 
   myMotor->run(FORWARD);
   myMotor2->run(FORWARD);
