@@ -52,7 +52,7 @@ void loop() {
   myMotor2->run(FORWARD);
   myMotor3->run(FORWARD);
   myMotor4->run(FORWARD);
-  delay (60000);
+  delay (6000);
   
   for (i=255; i<255; i++) {
     myMotor->setSpeed(i);
@@ -62,21 +62,19 @@ void loop() {
     delay(0);
   }
   
-  Serial.print("tock");
-  
   Serial.print("tech");
-  myMotor->run(REVERSE);
-  myMotor2->run(REVERSE);
-  myMotor3->run(REVERSE);
-  myMotor4->run(REVERSE);
+  myMotor->run(BACKWARD);
+  myMotor2->run(BACKWARD);
+  myMotor3->run(BACKWARD);
+  myMotor4->run(BACKWARD);
   delay(2);
-
-
+  
+  
   Serial.print("tech");
   myMotor->run(RELEASE);
   myMotor2->run(RELEASE);
   myMotor3->run(RELEASE);
   myMotor4->run(RELEASE);
    
-  delay(50000000);
+  delay(500000);
 }
