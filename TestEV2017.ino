@@ -66,7 +66,7 @@ void loop() {
   myMotor2->run(BACKWARD);
   myMotor3->run(BACKWARD);
   myMotor4->run(BACKWARD);
-  delay(200);
+  delay(250);
   
   
   Serial.print("tech");
